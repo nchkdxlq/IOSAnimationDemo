@@ -9,5 +9,9 @@
 #import "BaseViewController.h"
 
 @interface AffineTransformController : BaseViewController
+
 @property (nonatomic, strong) NSArray *arr;
+
+@property (nonatomic, copy) NSString *name;
+
 @end
