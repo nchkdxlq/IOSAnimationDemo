@@ -33,7 +33,7 @@
 
 - (void)test
 {
-    
+    NSLog(@"%s", __func__);
 }
 
 -(void)initData{

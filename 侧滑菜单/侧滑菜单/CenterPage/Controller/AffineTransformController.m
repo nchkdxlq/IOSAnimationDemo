@@ -22,6 +22,11 @@
     [self.view addSubview:self.demoView];
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+}
+
 
 //UI开发技巧，重写setter方法和Code Block Evaluation C Extension语法
 - (UIView *)demoView{
